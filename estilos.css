@@ -1,0 +1,39 @@
+h1{
+    color: chocolate;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 137px;
+}
+h2{
+    margin-left: 80px;
+    color: darkgoldenrod; 
+    font-size: 35px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    display:inline;
+}
+li{
+    display:inline;
+    color: black;    
+}
+img{
+    float: right;
+}
+ul{
+    list-style: none;
+    margin-top: 5;
+    margin-bottom: 5;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    font-style:normal;
+}
+h3{
+    text-align: right;
+    margin-right: 120px;
+}
+#uno{
+    float: right;
+}
