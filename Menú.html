@@ -6,21 +6,33 @@
         <meta charset="uft-8">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
-</html>
-<header>
-    <h1>Shoe shop</h1>
-    <img src="shoe_shop.png" width="130" height="130">
-    <h2>Zapatería las ofertas</h2>
-    <nav>
-        <ul>
-        <li><a href="a">Inicio</a></li>
-        <li><a href="a">Hombres</a></li>
-        <li><a href="a">Mujeres</a></li>
-        <li><a href="a">Niños</a></li>
-        <li id="uno">Buscar</li>
+    <body>
+
+<header><hr>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+    <h2 class="navbar-brand" href="a">
+        Zapatería las ofertas</h2>
+    <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a href="a" class="nav-link active">Inicio</a></li>
+        <li class="nav-item"><a href="a" class="nav-link">Hombres</a></li>
+        <li class="nav-item"><a href="a" class="nav-link">Mujeres</a></li>
+        <li class="nav-item"><a class="nav-link" href="a">Niños</a></li>
+        <li id="uno" class="nav-item"><a class="nav-link">Buscar</a></li>
         </ul>
         <h3><a href="a">Cerrar sesión</a></h3>
+        </div>
+        </div>
     </nav>
+    <h1 id="text-center">
+        <img src="shoe_shop.png" width="50" height="50"  class="d-inline-block align-text-top">
+        Shoe shop</h1>
 </header>
 <hr><hr>
 <section>
@@ -62,7 +74,76 @@
             </div>
         </div>
     </div><hr><hr>
+    </body>
 </section>
 
-<!-- Ing, la clase "text-justify" y "text-center" no lo encontré en el "bootstrap.min.css", así que me ví en la necesidad 
-    de agregarlo, así como mi propio estilo del "menú" en el <header> y algunos más-->
+<section>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+            <div class="carousel-item active">
+            <img src="foto1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="foto2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="foto3.jpg" class="d-block w-100" alt=>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+    <!--elemento para mostrar los cuadros de imagenes-->
+    <div class="container p-5">
+        <div class="row">
+            <!--crear tres columnas-->
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto1.1.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto2.1.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="foto3.1.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<footer class="container-fluid bg-light text-center">
+    <p>Todos los derechos reservados 2022</p>
+
+</footer>
+</html>
