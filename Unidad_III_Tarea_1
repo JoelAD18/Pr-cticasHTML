@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ECHO "Ávila Domínguez Germán Joel<br>";
+echo "3er cuatrimestre grupo A"
+?> 
+
+</body>
+</html>
